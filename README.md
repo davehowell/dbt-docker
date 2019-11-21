@@ -19,6 +19,21 @@ docker run --rm -it \
     davidgasquez/dbt:latest dbt run
 ```
 
+## Jinja REPL
+Use this if you need to test out snippits of Jinja syntax
+
+
+From a shell on the container launch the Jinja2 REPL
+```bash
+$ python jinrepl.py
+```
+
+For REPL usage see original repo: https://github.com/bechampion/jinrepl
+
+For Jinja2 docs see: https://jinja.palletsprojects.com/en/2.10.x/
+
+[^] + C to exit the REPL, which you will do anyway after trying exit, quit, \q, :q :wq etc
+
 ## License
 
 MIT License Copyright (c) 2018 David Gasquez
